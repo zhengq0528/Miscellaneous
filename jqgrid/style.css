@@ -1,0 +1,99 @@
+body
+{
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:14px;
+}
+
+/* DivTable.com */
+.divTable{
+	display: table;
+	width: 100%;
+}
+.divTableRow {
+	display: table-row;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.divTableCell, .divTableHead {
+
+	display: table-cell;
+	padding: 3px 10px;
+}
+.divTableHeading {
+	background-color: #EEE;
+	display: table-header-group;
+	font-weight: bold;
+}
+.divTableFoot {
+	background-color: #EEE;
+	display: table-footer-group;
+	font-weight: bold;
+}
+.divTableBody {
+	display: table-row-group;
+}
+
+.th1{
+  width:20px;
+}
+.th2{
+  width:200px;
+}
+.th3{
+  width:50px;
+}
+.th4{
+  width:20px;
+}
+.th4{
+  width:100px;
+}
+
+.divTableCell1 {
+	width: 150px;
+	display: table-cell;
+}
+.divTableCell {
+	display: table-cell;
+}
+
+#search {
+  color: green;
+  height: 50px;
+  width:150px;
+}
+.editbox
+{
+  width:10px;
+  display:none
+}
+td
+{
+  height: auto;;
+  color: blue;
+  padding:5px;
+}
+
+.constant
+{
+  color: black;
+  width:20px;
+  padding:5px;
+  font-weight: bold;
+}
+
+.editbox
+{
+  text-align: center;
+  font-size:14px;
+  width:100%;
+  background-color:#ffffcc;
+  border:solid 1px #000;
+  padding:1px;
+}
+.edit_tr:hover
+{
+  cursor:pointer;
+}
