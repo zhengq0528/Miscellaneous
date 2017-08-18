@@ -87,3 +87,16 @@ class Solution {
     return Sol;
   }
 }
+
+//Binary way to do it
+
+public List<Integer> findClosestElements(List<Integer> arr, int k, int x) {
+     int index = Collections.binarySearch(arr, x);
+     if(index < 0) index = -(index + 1);
+     int i = index - 1, j = index;
+     while(k-- > 0){
+         if(i<0 || (j<arr.size() && Math.abs(arr.get(i) - x) > Math.abs(arr.get(j) - x) ))j++;
+         else i--;
+     }
+     return arr.subList(i+1, j);
+ }
